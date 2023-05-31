@@ -26,7 +26,7 @@ p{
     padding: 0 5%;
 }
 .btn{
-    background-color:#62da68;
+    background-color:#63e969;
     color: black;
     padding: 15px 20px;
     border-radius: 10px;
@@ -36,7 +36,7 @@ p{
     margin: 15px 0;
 }
 .btn:hover{
-    background-color:#3bb844;
+    background-color:#48b34e;
 }
 header{
     background-position: center;
@@ -62,7 +62,7 @@ nav ul a{
 }
 nav ul a:not(.btn)::after{
     content: "";
-    background-color: #45cf4ce7;
+    background-color: #63e969;
     height: 3px;
     width: 0%;
     display: block;
