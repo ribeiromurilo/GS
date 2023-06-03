@@ -7,7 +7,7 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>AGROWTH</title>
 </head>
 <body>
     <header style="background-image: url('img/background-image.png')">
@@ -22,7 +22,13 @@
                     <a href="ia_generativas.html">IA Generativas</a>
                     <a href="cultivo_eficientes.html">Cultivo Eficientes</a>
                     <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
                 </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
             </nav>
             <section class="banner">
                 <div class="banner-text">
@@ -57,8 +63,8 @@
             <div class="cards">
                 <!-- card item 1 -->
                 <div class="card-item">
-                    <img src="img/me.jpg" alt="Nome">
-                    <p class="nome-user">Nome</p>
+                    <img src="img/me.jpg" alt="Ana">
+                    <p class="nome-user">Ana Amorim</p>
                     <p class="depoimento-user">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Officiis officia ducimus labore harum, dolore excepturi?
@@ -76,8 +82,8 @@
                 <!-- fim card item 1 -->
                 <!-- card item 2 -->
                 <div class="card-item">
-                    <img src="img/me.jpg" alt="Nome">
-                    <p class="nome-user">Nome</p>
+                    <img src="img/me.jpg" alt="Marcos">
+                    <p class="nome-user">Marcos Oliveira dos Santos</p>
                     <p class="depoimento-user">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Officiis officia ducimus labore harum, dolore excepturi?
@@ -95,8 +101,8 @@
                 <!-- fim card item 2 -->
                 <!-- card item 3 -->
                 <div class="card-item">
-                    <img src="img/me.jpg" alt="Nome">
-                    <p class="nome-user">Nome</p>
+                    <img src="img/me.jpg" alt="Patricia">
+                    <p class="nome-user">Patricia Rocha Soares</p>
                     <p class="depoimento-user">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Officiis officia ducimus labore harum, dolore excepturi?
@@ -143,5 +149,6 @@
             <p>Sarah Santos Teixeira – RM550635</p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
