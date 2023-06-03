@@ -27,7 +27,7 @@ p{
 }
 
 .btn{
-    background-color:#25ca20;
+    background-color:#19e213;
     color: black;
     padding: 15px 20px;
     border-radius: 10px;
@@ -97,11 +97,11 @@ nav ul a:hover::after{
     color: white;
     text-transform: uppercase;
 }
-.banner.banner-text p{
+.banner .banner-text p{
     font-size: 20px;
-    color: #ffffffb7;
-    font-weight: lighter;
-    margin: 50px 0;
+    color: #ffffff;
+    font-weight: 200;
+    margin: 1px 0;
 }
 /* faca mais */
 .faca-mais .container{
@@ -178,4 +178,29 @@ nav ul a:hover::after{
 .depoimentos .card-item:hover .estrelas i{
     color: white;
 }
- 
+/* parceiros */
+.parceiros h3,
+.parceiros p{
+    text-align: center;
+}
+.parceiros .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.parceiros .container img{
+    width: 250px;
+}
+/* footer */
+.footer{
+    background-color:#19e213;
+    text-align: center;
+    font-weight: 450;
+}
+.footer i{
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
