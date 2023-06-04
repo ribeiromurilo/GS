@@ -18,7 +18,7 @@ h3{
     font-size: 50px;
 }
 p{
-    color: #0000009c;
+    color: #000000d3;
 }
 .container{
     max-width: 1700px;
@@ -137,6 +137,7 @@ nav .close-icon{
 }
 .faca-mais .faca-mais-img img{
     width: 100%;
+    border-radius: 10px;
 }
 .depoimentos h3{
     text-align: center;
@@ -218,7 +219,30 @@ nav .close-icon{
     margin: 3px;
     border-radius: 10px;
 }
+/*Agricultura Sustentável*/
+.as .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.as .as-text p{
+    margin: 18px 0;
+    color: #000000d3;
+    text-align: justify;
+}
+.as .as-text{
+    width: 50%;
+    padding-right: 40px;
+}
+.as .as-img{
+    width: 50%;
 
+}
+.as .as-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*Fim Agricultura Sustentável*/
 @media(max-width: 830px){
 /* menu mobile*/
 .ul{
