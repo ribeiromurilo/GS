@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contato | AGROWTH</title>
+</head>
+<body>
+    <header style="background-image: url('img/background-contato.jpg')">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="200px">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="agricultura_sustentavel.html">Agricultura Sustentável</a>
+                    <a href="ia_generativas.html">IA Generativas</a>
+                    <a href="cultivos_eficientes.html">Cultivos Eficientes</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Contato</h1>
+                    <p>Entre em contato com nossa equipe e nós o retornaremos assim que possível!</p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <section class="contato">
+        <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0752900170173!2d-46.65381282504357!3d-23.56573927879686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1sen!2sbr!4v1686004424256!5m2!1sen!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contato-info">
+                <form action="">
+                    <input type="text" placeholder="Nome Completo" required>
+                    <input type="text" placeholder="Telefone" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <label for="dataNascimento"></label>
+                    <input type="date" id="dataNascimento" name="dataNascimento">
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estado">
+                    <option value="">Selecione um estado</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                    </select>
+                    <input type="text" placeholder="Cidade" required>
+                    <textarea name="mensagem" rows="30" cols="10" placeholder="Mensagem"></textarea>
+                    <input type="checkbox" name="notificacoes" value="notificacoes" required>Deseja receber nossas atualizações por e-mail?
+                    <button class="btn">Enviar</button>
+</select>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="membros">
+                <i class="fa fa-users" aria-hidden="true"></i> </a>
+            </div>
+            <p>Ana Júlia Almeida Silva Neves – RM98974</p>
+            <p>Felipe Rodrigues Franco de Oliveira – RM552101</p>
+            <p>Lucas Pinheiro de Melo – RM97707</p>
+            <p>Murilo Ribeiro Valério da Silva – RM550858</p>
+            <p>Sarah Santos Teixeira – RM550635</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

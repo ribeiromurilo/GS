@@ -291,6 +291,8 @@ nav .close-icon{
 .cultivos-eficientes .cultivos-cards-item p.descricao-cultivos{
     transition: 0.3s;
 }
+/* contato */
+
 /*mobile*/
 @media(max-width: 830px){
 /* menu mobile*/
