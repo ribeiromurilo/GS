@@ -219,7 +219,7 @@ nav .close-icon{
     margin: 3px;
     border-radius: 10px;
 }
-/*Agricultura Sustentável*/
+/*agricultura sustentável*/
 .as .container{
     display: flex;
     align-items: center;
@@ -243,7 +243,28 @@ nav .close-icon{
     width: 100%;
     border-radius: 10px;
 }
-/*Fim Agricultura Sustentável*/
+/* cultivos eficientes */
+.cultivos-eficientes h3{
+    text-align: center;
+}
+.cultivos-eficientes .container > p{
+    text-align: center;
+}
+.cultivos-eficientes .cultivos-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+.cultivos-eficientes .cultivos-cards-item{
+    background-color: #d3fdd6;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/*mobile*/
 @media(max-width: 830px){
 /* menu mobile*/
 .ul{
