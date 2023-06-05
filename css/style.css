@@ -292,6 +292,65 @@ nav .close-icon{
     transition: 0.3s;
 }
 /* contato */
+.contato-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.contato-info input{
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 47px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #979797;
+    color: #212121;
+}
+.contato-info input:focus,
+.contato-info select:focus,
+.contato-info textarea:focus{
+    border-color:#19e213;
+}
+.contato-info select{
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 47px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #979797;
+    color: #212121;
+}
+  
+.contato-info option{
+    width: 100%;
+    margin-bottom: 5%;
+    height: 47px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #979797;
+    color: #212121;
+}
+  
+.contato-info textarea{
+    border: 1px solid #979797;
+    color: #212121;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+.contato-info button{
+    border: none;
+    width: 100%;
+}
 
 /*mobile*/
 @media(max-width: 830px){
