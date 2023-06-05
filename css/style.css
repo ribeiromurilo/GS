@@ -250,6 +250,13 @@ nav .close-icon{
 .cultivos-eficientes .container > p{
     text-align: center;
 }
+.cultivos-eficientes .cultivos-text{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
 .cultivos-eficientes .cultivos-cards{
     display: flex;
     justify-content: center;
@@ -258,6 +265,7 @@ nav .close-icon{
 }
 .cultivos-eficientes .cultivos-cards-item{
     background-color: #d3fdd6;
+    text-align: justify;
     width: 500px;
     padding: 20px;
     border-radius: 15px;
