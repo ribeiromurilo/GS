@@ -254,16 +254,35 @@ nav .close-icon{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .cultivos-eficientes .cultivos-cards-item{
     background-color: #d3fdd6;
-    width: 350px;
+    width: 500px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 20px;
+    transition: 0.3s;
 }
-
+.cultivos-eficientes .cultivos-cards-item:hover{
+    background-color: #19e213;
+}
+.cultivos-eficientes .cultivos-cards-item:hover p{
+    color: white;
+}
+.cultivos-eficientes .cultivos-cards-item img{
+    background-color: #19e213;
+    border-radius: 15px;
+    width: 70px;
+    padding: 9px;
+}
+.cultivos-eficientes .cultivos-cards-item p.nome-cultivos{
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.cultivos-eficientes .cultivos-cards-item p.descricao-cultivos{
+    transition: 0.3s;
+}
 /*mobile*/
 @media(max-width: 830px){
 /* menu mobile*/
