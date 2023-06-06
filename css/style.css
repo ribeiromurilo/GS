@@ -486,5 +486,109 @@ nav .close-icon{
 }
 }
 /* tablet */
-@media(min-width: 768px) and (max-width:1023px){
+@media screen and (min-width: 768px) and (max-width:1023px){
+/* menu responsivo*/
+.ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2e962b;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: circle(0% at 100% 0);
+    transition: 0.7s;
+}
+.ul.open{
+    clip-path: circle(141.2% at 100% 0);
+}
+.ul a{
+    margin: 10px 0;
+    font-size: 16px;
+}
+nav .menu-icon{
+    display: block;
+}
+nav .close-icon{
+    display: block;
+    position: absolute;
+    top: 46px;
+    right: 28px;
+}
+/* home responsivo */
+.projeto .projeto-text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+}
+.projeto .container{
+    flex-direction: column;
+}
+.projeto .projeto-text h3{
+    font-size: 48px;
+    margin-top: 40px;
+}
+.projeto .projeto-img,
+.projeto .projeto-text{
+    width: 100%;
+}
+/* banner responsivo */
+.banner .banner-text{
+    padding: 0;
+    margin: 80px;
+}
+.banner .banner-text h1{
+    font-size: 80px;
+}
+.banner .banner-text p{
+    font-size: 15px;
+}
+.depoimentos .card-item{
+    width: 100%;
+}
+.parceiros .container img{
+    width: 150px;
+    margin-top: 15px;
+}
+/* ia generativas responsiva */
+.ia .container{
+    flex-direction: column;
+}
+.ia .ia-img{
+    width: 100%;
+}
+.ia .ia-text{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.ia .ia-text h3{
+    margin-top: 40px;
+}
+
+/* culvitos eficientes responsivo */
+.cultivos-eficientes .container,
+.cultivos-eficientes .cultivos-text{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.cultivos-eficientes .cultivos-cards-item{
+    width: 100%;
+}
+/* agricultura sustentavel responsiva */
+.banner .banner-text h1{
+    font-size: 60px;
+}
+.as .container{
+    flex-direction: column;
+}
+.as .as-img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.as .as-text{
+    width: 100%;
+}
 }
