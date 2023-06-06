@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@media screen{
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +28,7 @@ p{
 }
 
 .btn{
-    background-color:#19e213;
+    background-color:#45d640;
     color: black;
     padding: 15px 20px;
     border-radius: 10px;
@@ -38,7 +39,7 @@ p{
 }
 
 .btn:hover{
-    background-color:#1e9b1a;
+    background-color:#2e962b;
 }
 header{
     background-position: center;
@@ -74,7 +75,7 @@ nav ul a{
 }
 nav ul a:not(.btn)::after{
     content: "";
-    background-color: #19e213;
+    background-color: #45d640;
     height: 3px;
     width: 0%;
     display: block;
@@ -119,24 +120,25 @@ nav .close-icon{
     margin: 1px 0;
 }
 /* faca mais */
-.faca-mais .container{
+.projeto .container{
     display: flex;
     align-items: center;
 }
-.faca-mais .faca-mais-text{
+.projeto .projeto-text{
     width: 50%;
     padding: 0 40px;
 }
-.faca-mais .faca-mais-text h3{
+.projeto .projeto-text h3{
     font-size: 56px;
 }
-.faca-mais .faca-mais-text p{
+.projeto .projeto-text p{
     margin: 5px 0 10px;
+    text-align: justify;
 }
-.faca-mais .faca-mais-img{
+.projeto .projeto-img{
     width: 50%;
 }
-.faca-mais .faca-mais-img img{
+.projeto .projeto-img img{
     width: 100%;
     border-radius: 10px;
 }
@@ -178,16 +180,16 @@ nav .close-icon{
 }
 .depoimentos .card-item .estrelas{
     margin: 15px 0;
-    border-top: 2px solid #717a7123;
+    border-top: 2px solid #abb8ab1a;
 }
 .depoimentos .card-item .estrelas i{
-    color: #19e213;
+    color: #45d640;
     margin-top: 15px;
     font-size: 20px;
     transition: 0.1s;
 }
 .depoimentos .card-item:hover{
-    background-color: #19e213;
+    background-color: #45d640;
     margin-top: -5px;
 }
 .depoimentos .card-item:hover .nome-user,
@@ -211,7 +213,7 @@ nav .close-icon{
 }
 /* footer */
 .footer{
-    background-color:#19e213;
+    background-color:#45d640;
     text-align: center;
     font-weight: 450;
 }
@@ -299,13 +301,13 @@ nav .close-icon{
     transition: 0.3s;
 }
 .cultivos-eficientes .cultivos-cards-item:hover{
-    background-color: #19e213;
+    background-color: #45d640;
 }
 .cultivos-eficientes .cultivos-cards-item:hover p{
     color: white;
 }
 .cultivos-eficientes .cultivos-cards-item img{
-    background-color: #19e213;
+    background-color: #45d640;
     border-radius: 15px;
     width: 70px;
     padding: 9px;
@@ -338,7 +340,7 @@ nav .close-icon{
 .contato-info input:focus,
 .contato-info select:focus,
 .contato-info textarea:focus{
-    border-color:#19e213;
+    border-color:#45d640;
 }
 .contato-info select{
     display: block;
@@ -351,7 +353,6 @@ nav .close-icon{
     border: 1px solid #979797;
     color: #212121;
 }
-  
 .contato-info option{
     width: 100%;
     margin-bottom: 5%;
@@ -362,7 +363,6 @@ nav .close-icon{
     border: 1px solid #979797;
     color: #212121;
 }
-  
 .contato-info textarea{
     border: 1px solid #979797;
     color: #212121;
@@ -377,10 +377,10 @@ nav .close-icon{
     border: none;
     width: 100%;
 }
-
+}
 /*mobile*/
-@media(max-width: 830px){
-/* menu mobile*/
+@media screen and (max-width: 767px){
+/* menu responsivo*/
 .ul{
     position: fixed;
     top: 0;
@@ -411,19 +411,20 @@ nav .close-icon{
     right: 28px;
 }
 /* home responsivo */
-.faca-mais .faca-mais-text{
+.projeto .projeto-text{
     margin-top: 10px;
     padding: 0 20px;
     order: 1;
 }
-.faca-mais .container{
+.projeto .container{
     flex-direction: column;
 }
-.faca-mais .faca-mais-text h3{
+.projeto .projeto-text h3{
     font-size: 48px;
+    margin-top: 40px;
 }
-.faca-mais .faca-mais-text,
-.faca-mais .faca-mais-img{
+.projeto .projeto-text,
+.projeto .projeto-img{
     width: 100%;
 }
 /* banner responsivo */
@@ -483,16 +484,7 @@ nav .close-icon{
     width: 100%;
     margin-bottom: 40px;
 }
-
-/* culvitos eficientes responsivo */
-.cultivos-eficientes .container,
-.cultivos-eficientes .cultivos-text{
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
 }
-.cultivos-eficientes .cultivos-cards-item{
-    width: 100%;
-}
-
+/* tablet */
+@media(min-width: 768px) and (max-width:1023px){
 }
