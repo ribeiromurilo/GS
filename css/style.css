@@ -78,7 +78,8 @@ nav ul a:not(.btn)::after{
     height: 3px;
     width: 0%;
     display: block;
-    transition: 0.5s;
+    margin: 0 auto;
+    transition: 0.4s;
 }
 nav ul a:hover::after{
     width: 100%;
@@ -469,6 +470,9 @@ nav .close-icon{
     width: 100%;
 }
 /* agricultura sustentavel responsiva */
+.banner .banner-text h1{
+    font-size: 60px;
+}
 .as .container{
     flex-direction: column;
 }
@@ -490,4 +494,5 @@ nav .close-icon{
 .cultivos-eficientes .cultivos-cards-item{
     width: 100%;
 }
+
 }
