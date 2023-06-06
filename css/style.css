@@ -126,7 +126,7 @@ nav .close-icon{
     width: 50%;
     padding: 0 40px;
 }
-.faca-mais .faca-mais.text h3{
+.faca-mais .faca-mais-text h3{
     font-size: 56px;
 }
 .faca-mais .faca-mais-text p{
@@ -149,6 +149,7 @@ nav .close-icon{
 .cards{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .depoimentos .card-item{
     background-color: #d3fdd6;
@@ -240,6 +241,30 @@ nav .close-icon{
 
 }
 .as .as-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* ia generativas */
+.ia .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ia .ia-text p{
+    margin: 18px 0;
+    color: #000000d3;
+    text-align: justify;
+}
+.ia .ia-text{
+    width: 50%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.ia .ia-img{
+    width: 50%;
+
+}
+.ia .ia-img img{
     width: 100%;
     border-radius: 10px;
 }
@@ -383,5 +408,86 @@ nav .close-icon{
     position: absolute;
     top: 46px;
     right: 28px;
+}
+/* home responsivo */
+.faca-mais .faca-mais-text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+}
+.faca-mais .container{
+    flex-direction: column;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 48px;
+}
+.faca-mais .faca-mais-text,
+.faca-mais .faca-mais-img{
+    width: 100%;
+}
+/* banner responsivo */
+.banner .banner-text{
+    padding: 0;
+    margin: 80px;
+}
+.banner .banner-text h1{
+    font-size: 80px;
+}
+.banner .banner-text p{
+    font-size: 15px;
+}
+.depoimentos .card-item{
+    width: 100%;
+}
+.parceiros .container img{
+    width: 150px;
+    margin-top: 15px;
+}
+/* ia generativas responsiva */
+.ia .container{
+    flex-direction: column;
+}
+.ia .ia-img{
+    width: 100%;
+}
+.ia .ia-text{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.ia .ia-text h3{
+    margin-top: 40px;
+}
+
+/* culvitos eficientes responsivo */
+.cultivos-eficientes .container,
+.cultivos-eficientes .cultivos-text{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.cultivos-eficientes .cultivos-cards-item{
+    width: 100%;
+}
+/* agricultura sustentavel responsiva */
+.as .container{
+    flex-direction: column;
+}
+.as .as-img{
+    width: 100%;
+}
+.as .as-text{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* culvitos eficientes responsivo */
+.cultivos-eficientes .container,
+.cultivos-eficientes .cultivos-text{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.cultivos-eficientes .cultivos-cards-item{
+    width: 100%;
 }
 }
